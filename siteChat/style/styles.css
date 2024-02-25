@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    background-image: url('/siteChat/images/trafic.jpg'); /* Remplacez 'chemin/vers/image.jpg' par le chemin de votre image de fond */
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+aside {
+    background-color: #f0f0f0;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.8); /* Pour rendre le formulaire plus lisible */
+    float: left;
+    height: calc(100vh - 80px);
+    overflow-y: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #ddd;
+}
+
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Pour rendre le formulaire plus lisible */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    /* width: 20%; */
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
+
+#date-selector {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    height: 100%;
+}
+
+#form-container {
+    text-align: center;
+}
+.hidden {
+    display: none;
+}
+
+/* Styles pour le tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Styles CSS pour centrer le tableau */
+.table-container {
+    margin: 0 auto; /* Centre le conteneur horizontalement */
+    max-width: 1100px; /* Définit une largeur maximale pour le tableau */
+}
+
+/* Nouveau style pour le cadre de visite */
+.visit {
+    background-color: #fff; /* Couleur de fond */
+    padding: 20px; /* Espacement intérieur */
+    margin-bottom: 20px; /* Espacement entre chaque visite */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre douce */
+}
+
+/* Variation de couleur pour chaque ligne */
+.visit:nth-child(even) {
+    background-color: #f2f2f2; /* Couleur de fond plus claire pour les lignes paires */
+}
+
+/* Ajout d'une bordure autour du cadre */
+.visit {
+    border: 1px solid #ddd; /* Bordure grise */
+}
+
+/* Style pour les liens */
+.visit a {
+    color: #333; /* Couleur du texte des liens */
+    text-decoration: none; /* Pas de soulignement */
+}
+
+.visit a:hover {
+    text-decoration: underline; /* Soulignement au survol */
+}
+
+/* Nouveau style pour le cadre de récapitulatif */
+.summary-container {
+    background-color: #fff; /* Couleur de fond */
+    padding: 20px; /* Espacement intérieur */
+    margin-bottom: 20px; /* Espacement en dessous */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    border: 1px solid #ddd; /* Bordure grise */
+}
+
+/* Style pour chaque élément du récapitulatif */
+.summary p {
+    margin-bottom: 10px; /* Espacement entre chaque élément */
+}
+
+/* Variation de couleur pour chaque élément */
+.summary p:nth-child(even) {
+    background-color: #f2f2f2; /* Couleur de fond plus claire pour les éléments pairs */
+}
